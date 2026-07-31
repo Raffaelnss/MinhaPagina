@@ -19,11 +19,14 @@ body{
     align-items: center;
     justify-content: center;
 }
-.cabecalho-imagem{
-    width: 10%;
+.cabecalho_imagem{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    object-fit: cover;
+    width: 182px;
+    height: 206px;
+    object-position: 0px 0px;
 }
 .titulo_site{
     padding: 50px;
@@ -51,6 +54,8 @@ body{
 }
 .estudante-imagem{
     width: 120px;
+    height: 200px;
+    object-fit: cover;
 }
 .estudante-icone{
     width: 38px;
@@ -61,7 +66,7 @@ body{
     padding: 24px 0;
 }
 
-.estudante.div{
+.estudante-div{
     text-align: center;
     padding: 24px 0;
 }
